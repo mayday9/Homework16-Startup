@@ -1,0 +1,195 @@
+@import url("css/normalize.css");
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.clearfix::after,
+.header--logo__menu::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*************primary settings**********************/
+/***************************************************/
+body{
+	font-family: 'Roboto Slab', serif;
+	font-weight: normal;
+	color: #8b8b8b;
+	font-size:0.875rem;
+	line-height: 1.7142;
+	margin:0;
+}
+.page__conteiner{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+/*************primary settings end******************/
+/*******************header**************************/
+/*******************header logo menu*****************/
+
+.header__bg--image{
+	background: url(images/header_bg.jpg);
+	height: 49rem;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.logo{
+	margin-top: 1.5rem;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+	
+}
+.logo__link{
+	color: white;
+	text-decoration: none;
+}
+.menu{
+	margin-top: 1.5rem;
+	float: right;
+}
+.menu__list{
+	list-style-type: none;
+}
+.list__item{
+	text-align: right;
+	float: left;
+	margin-right: 1.875rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.875rem;
+	font-weight: normal;
+
+}
+.list__link{
+	text-decoration: none;
+	color: white;
+}
+
+/*******************header logo menu end*****************/
+/*******************header center*****************/
+.header--center{
+	padding-top: 14.75rem;
+	text-align: center;
+}
+.center__first__row{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	font-weight: normal;
+	color: white;
+}
+.center__second__row{
+	font-family: 'Roboto Slab', serif;
+	font-weight: normal;
+	font-size: 1.25rem;
+	color: white;
+}
+.center__third__row{
+	margin-top: 3rem;
+}
+.link__third__row{
+	background: url(images/header_bottom.png);
+	background-repeat: no-repeat;
+	display: block;
+	margin: 0 auto;
+	width: 11.25rem;
+	height: 3.125rem; 
+}
+.link__third__row:hover{
+	background: url(images/header_bottom_hover.png);
+
+}
+/*******************header center end*****************/
+/*******************header end*****************/
+
+/*******************Servises starts*****************/
+.servises_upside{
+	text-align: center;
+	margin: 5.625rem 0 4.375rem 0;
+}
+.upside_h2{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.25rem;
+	font-weight: normal;
+	color: #7f7f7f;
+
+}
+.upside_p{
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+	color: #7f7f7f;
+}
+.servises_blocks{
+	display: flex;
+	justify-content: space-between;
+	/*margin-bottom: 6.25rem;*/
+}
+.servises_block{
+	text-align: center;
+	width: 33%;
+}
+.servises_block_link{
+	margin: 0 auto;
+	width: 5.3125rem;
+	height: 5.3125rem;
+	border: 1px solid #dddddd;
+	border-radius: 50%;
+	background: #fff;
+	text-align: center;
+}
+.servises_block_link:hover{
+	background: #c0301c;
+
+}
+
+.servises_block_img{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.servises_block_h3{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 0.875rem;
+	font-weight: normal;
+	color: #7f7f7f;
+}
+.servises_block_p{
+	margin: 0 1rem;
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 0.875rem;
+	font-weight: normal;
+	color: #7f7f7f;
+}
+
+/**********************Servises end**********************/
+/*********************About US starts*****************/
+.page__row_about-us{
+		background: #f8f8f8;
+}
+.servises_upside-aboutus{
+	padding-top: 6.25rem;
+}
+.about-us_text-content{
+	width: 49%;
+}
+.about-us__pictures{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.pictures_blok{
+	width: 24%;
+}
+
+
+
