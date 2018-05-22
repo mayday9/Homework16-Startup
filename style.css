@@ -190,6 +190,102 @@ body{
 .pictures_blok{
 	width: 24%;
 }
+.pictures_blok1{
+	background-image: url("images/Ab_us_pic_1.png");
+	width: 16.25rem;
+	height: 15.625rem;
+}
+.pictures_blok2{
+	background-image: url("images/Ab_us_pic_2.png");
+	width: 16.25rem;
+	height: 15.625rem;
+}
+.pictures_blok3{
+	background-image: url("images/Ab_us_pic_3.png");
+	width: 16.25rem;
+	height: 15.625rem;
+}
+.pictures_blok4{
+	background-image: url("images/Ab_us_pic_4.png");
+	width: 16.25rem;
+	height: 15.625rem;
+}
+.about-us__picture__name1{
+	margin-top: 8.25rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.875rem;
+	text-align: center;
+	text-transform: uppercase;
+	color: #7f7f7f;
+}
+.about-us__picture__name2{
+	margin-top: 8.25rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.875rem;
+	text-align: center;
+	text-transform: uppercase;
+	color: #7f7f7f;
+}
+.about-us__picture__name{
+	margin-top: 2.25rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.875rem;
+	text-align: center;
+	text-transform: uppercase;
+	color: #7f7f7f;
+}
+
+.about-us__picture__sign{
+	font-family: "Roboto Slab", sans-serif ;
+	font-size: 0.8125rem;
+	font-weight: normal;
+	color: #7f7f7f;
+	text-align: center;
+}
+.sign{
+	margin-bottom: 6.25rem;
+}
+.rectangle{
+	width: 2rem;
+	height: 2rem;
+	background: url(images/Rectangle_8.png);
+}
+.rectangle-right{
+	margin-left: 14.2rem;
+	width: 2rem;
+	height: 2rem;
+	background: url(images/Rectangle_8.png);
+}
+.rectangle:hover{
+	background: url("images/Rectangle_8_red.png");
+}
+.rectangle-right:hover {
+	background: url("images/Rectangle_8_red.png");
+}
+.rectangle-icons{
+	width: 2rem;
+	height: 2rem;
+	padding: 0.5rem;
+}
+.rectangle-icons:hover{
+	background: url("images/Rectangle_7_red.png");
+}
+.fa-rectangle{
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.icons{
+	display:flex;
+	margin-top: 4rem;
+	margin-left: 5rem;
+}
+.icons-middle{
+	display:flex;
+	margin-top: 12rem;
+	margin-left: 5rem;
+}
 
 
 
